@@ -1,0 +1,43 @@
+.card {
+
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px; 
+  font-size: 19px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2) ;
+  margin: 25px;  
+  flex-basis: 200px;
+  flex-grow: 1;
+border-radius: 5px;
+	}
+
+
+	.card h3 {
+		flex-flow: 1; 
+        padding: 20px; 
+        font-size: 16px;
+
+	}
+
+	.cards {
+display: flex;
+flex-wrap: wrap;
+
+}
+
+#Learn  {
+  background: #ffb5b5;
+}
+
+#Photo {
+
+  background: #ffb5b5;
+
+}
+
+#Video {
+
+  background: #ffb5b5; 
+}
